@@ -5,7 +5,7 @@ const app = express();
 // Add middleware
 app.use(express.json());
 
-// Define routes
+// Define routes 
 app.get('/', (req, res) => {
   res.send('Hello World');
 });
